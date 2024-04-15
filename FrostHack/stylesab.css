@@ -1,0 +1,62 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* .container {
+    width: 80%;
+    margin: auto;
+} */
+
+h1 {
+    font-weight: bold;
+    text-align: left;
+    font-size: 2.5rem;
+    color: #161b22;
+    margin-top: 0px; /* Add some distance from the top */
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #161b22;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #4e5561;
+}
+
+footer {
+    background-color: #161b22;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.back-btn {
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
